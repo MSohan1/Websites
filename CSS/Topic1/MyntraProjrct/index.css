@@ -1,0 +1,170 @@
+/* To whole page margin and padding = 0 */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* For Company logo */
+.logo {
+  height: 30px;
+  padding: 10px;
+margin: 0 0 0 10px ;
+}
+/* For Page Header */
+header{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+/* For Page Categories */
+ .nav_bar{
+  display: flex;
+  height: 40px;
+  padding-top: 10px;
+  align-items: center;
+  
+  justify-content: space-between;
+  min-width: 500px;
+}
+/* Link decorations */
+.nav_bar a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+/* Hover Effect on nav */
+.nav_bar a:hover{
+  
+  color: rgb(204, 42, 42);
+  border-bottom-style:solid ;
+  
+}
+/* For Search Bar */
+.searchbox{
+  display: flex;
+  border: 2px solid rgb(136, 110, 110);
+  width: 450px;
+  align-self: center;
+  height: 35px;
+  border-radius: 25px;
+}
+/* Search Icon position */
+.SearchIcon{
+  align-self: center;
+  margin-left: 10px; 
+}
+/* Search bar */
+#search{
+  margin-left: 10px; 
+  height: 95%;
+  width: 350px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: aliceblue;
+}
+
+
+/* search button */
+#searchbtn{
+  background-color: aliceblue;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  height: 100%;
+  width: 60px;
+}
+
+/* For Profile */
+.active_box{
+  margin-right: 50px;
+  align-self: center;
+}
+
+.active_box a{
+  text-decoration: none;
+  color: black;
+}
+.active_box a:hover{
+  color: cornflowerblue;
+  border-bottom-style:solid ;
+  
+}
+.active_box_profile_icon{
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin-right: 3px;
+}
+.active_box_wishlist_icon{
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin-right: 3px;
+}
+
+.active_box_bag_icon{
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin-right: 3px;
+}
+
+/* Main Part */
+
+main
+{
+  display: inline-block;
+}
+.container{
+  border: 2px solid black;
+  height: 250px;
+  width: 15%;
+  margin: 25px;
+  display: inline-block;
+}
+.companyname{
+  border: 2px solid green;
+  display: inline-block;
+  width: 100%;
+
+}
+.price{
+  border: 2px solid green;
+  display: inline;
+  width: 33%;
+  text-decoration: line-through;
+  font-size: small;
+}
+.offerprice{
+  border: 2px solid green;
+  display: inline-block;
+  width: 34%;
+}
+.discount{
+  border: 2px solid green;
+  display: inline-block;
+  width: 33%;
+}
+
+.wishlist{
+  position: relative;
+  left:15%;
+  
+}
+
+.productimg
+{
+  height: 250px;
+  width: 100%;
+}
+
+/* Footer Part */
+
+
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+}
+

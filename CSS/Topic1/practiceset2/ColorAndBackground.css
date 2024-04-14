@@ -1,0 +1,18 @@
+.hedderr{
+  color: turquoise;
+  background-color: rgb(196, 8, 139);
+}
+main{
+  background-color: rgb(183, 224, 31);
+  height:150px;
+}
+
+.Img{
+  color: purple;
+  background-image: url(Random.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  width: 200px;
+}

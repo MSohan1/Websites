@@ -1,0 +1,62 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: aqua;
+}
+nav a{
+  text-decoration: none;
+  color: honeydew;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+a{
+  padding: 5px;
+  margin: 5px;
+}
+nav a:hover{
+  color: chartreuse;
+}
+nav{
+  background-color: rgb(75, 170, 199);
+  padding: 10px;
+}
+.main{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: blueviolet;
+  
+}
+#container{
+  
+  border: 2px solid black;
+}
+.Box{
+  margin: 15px;
+  height: 70px;
+  width: 70px;
+  background-color: violet;
+  display: inline-block;
+}
+#box4{
+  position: fixed;
+  z-index: -1;
+}
+#box5{
+
+ background-color: antiquewhite;
+}
+#data{
+  text-align: center;
+  color: violet;
+  
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  background-color: cornflowerblue;
+}

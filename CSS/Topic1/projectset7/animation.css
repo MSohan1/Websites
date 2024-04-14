@@ -1,0 +1,96 @@
+.container{
+  height: 20px;
+  width: 100px;
+  background-color: rgb(164, 204, 238);
+  text-align: center;
+  margin: 15%;
+  position: relative;
+/* 
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; */
+  /* transition: all 1s ease-out 0s; */
+}
+.container:hover{height: 30px;
+background-color: azure;
+}
+.container:active{
+  height: 90px;
+  background-color: rgb(8, 114, 114); 
+}
+#rotate{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(164, 204, 238);
+  animation: rotatee 1s alternate-reverse infinite;
+  position: relative;
+  
+}
+
+@keyframes rotatee {
+  0%{
+    left: 0%;
+    transform: rotatez(0deg);
+  }
+  10%{
+    left: 10%;
+    transform: rotatez(45deg);
+  }
+  20%{
+    left: 20%;
+    transform: rotatez(90deg);
+  }
+  
+  30%{
+    left: 30%;
+    transform: rotatez(135deg);
+  }
+  40%{
+    left: 40%;
+    transform: rotatez(180deg);
+  }
+  50%{
+    left: 50%;
+    transform: rotatez(225deg);
+  }
+  60%{
+    left: 60%;
+    transform: rotatez(270deg);
+  }
+  70%{
+    left: 70%;
+    transform: rotatez(315deg);
+  }
+  
+  80%{
+    left: 80%;
+    transform: rotatez(360deg);
+  }
+  90%{
+    left: 90%;
+    transform: rotatez(405deg);
+  }
+  100%{
+    left: 90%;
+    transform: rotatez(450deg);
+  }
+  /* 0% {
+    margin: 0;
+  }
+  25% {
+    margin: 85% 0 0 0;
+  }
+  50% {
+    margin: 85% 0 0 85%;
+  }
+  75% {
+    margin: 0 0 0 85%;
+  }
+  87.5%{
+    }
+  100% {
+    margin: 0;
+    transform:rotateZ(1800deg);
+  } */
+}

@@ -1,0 +1,122 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  background: url(../background.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  /* background-color: white; */
+}
+.container nav{
+  padding-top:10px ;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  box-shadow: 1px 1px 5px white;
+  color: white;
+  
+}
+.container nav img{
+  width: 50px;
+  position: absolute;
+  left: 90px;
+}
+.container nav ul{
+  display: flex;
+  width: 550px;
+  height: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  left: 12%;
+ margin-top: 15px; 
+  /* border: 2px solid white; */
+}
+.container nav ul li{
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+}
+.container nav button{
+  position: absolute;
+  right: 5%;
+  margin: 15px;
+  padding: 8px;
+  width: 80px;
+  background-color: transparent;
+  color: antiquewhite;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+  outline: 0;
+}
+.contain{
+  width: 400px;
+  height: 400px;
+  /* background-color: white; */
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.contain h1{
+  font-size: 55px;
+  color: white;
+}
+.contain h1 span{
+  color: orange;
+}
+.contain p{
+  margin-top: 15px;
+  color: white;
+  font-size: 18px;
+}
+.contain button{
+  margin-top: 15px;
+  padding: 5px 25px;
+  background-color: orange;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.showarea{
+  position: absolute;
+  left: 50%;
+  bottom: 1%;
+  height: 150px;
+  width: 40%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.showarea .Coin{
+  height: 45px;
+  width: 130px;
+  padding: 10px;
+  border: 1px solid white;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px white;
+}
+.showarea .Coin img{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+.showarea .Coin 
+{
+ color: white;
+}
+.showarea .Coin .coinname{
+  color: orange;
+}

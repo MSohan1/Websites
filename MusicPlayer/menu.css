@@ -1,0 +1,68 @@
+.container{
+  position: absolute;
+}
+
+li{
+  list-style: none;
+}
+.listOfSongs{
+  position: relative;
+  top: 20px;
+  left: 15px;
+  width: 90%;
+  height: 70%;
+  /* background-color: cadetblue; */
+}
+
+
+.listOfSongs .songplace{
+  width: 95%;
+  height: 50px;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.listOfSongs .songplace img{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  
+}
+
+.listOfSongs .songplace h4{
+  width: 200px;
+  font-size: 16px;
+  padding: 2px;
+  font-weight: 600px;
+  color: aliceblue;
+}
+.listOfSongs .songplace p{
+  font-size: 17px;
+  color: white;
+}
+.listOfSongs .songplace i{
+  
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  /* margin-right: 12px; */
+}
+#song2{
+  top: 24%;
+}
+#song3{
+  top: 44%;
+}
+#song4{
+  top: 64%;
+}
+#song5{
+  top: 84%;
+}

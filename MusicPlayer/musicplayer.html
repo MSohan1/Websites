@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="musicplayer.css">
+  <script src="https://kit.fontawesome.com/6d753d32aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="musicplayerbox">
+      <nav id="musicNavbar">
+        <a href="mainpage.html"><i class="fa-solid fa-chevron-left" id="leftangle"></i></a>
+       <a href="songsList.html"> <i class="fa-solid fa-bars" id="threebar"></i> </a>
+      </nav>
+      <div class="imgsection">
+        <img src="premam.jpg" alt="">
+        
+      </div>
+      <div id="songinfo">
+        <h1>Evare Evare</h1>
+        <p>Pramem</p>
+      </div>
+      <audio  id="songs">
+        <source src="Evare-Vijay-Yesudas.mp3" type="audio/mpeg">
+      </audio>
+      <input type="range" id="musicrange">
+      <div class="controls">
+        <i class="fa-solid fa-angles-left"></i>
+        <i onclick="playmusic()" class="fa-solid fa-play" id="playbutton"></i>
+        <a href="musicplayersong2.html"><i class="fa-solid fa-angles-right"></i></a>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="musicplayer.js"></script>
+</body>
+</html>

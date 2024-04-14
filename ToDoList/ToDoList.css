@@ -1,0 +1,26 @@
+#heading{
+  text-align: center;
+}
+.plan{
+  display: grid;
+  grid-template-columns: 150px 120px 90px;
+  column-gap:15px;
+  row-gap: 15px;
+  margin-top: 15px;
+  
+  }
+  #input_text , #input_date, #list, #date{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 233, 181);
+  }
+  .add{
+    border-radius: 8px;
+    background-color: rgb(161, 247, 161);
+  }
+  #btn{
+    border-radius: 8px;
+    background-color: rgb(204, 27, 27);
+    color: aliceblue;
+    padding: 10px;
+  }

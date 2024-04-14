@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="musicplayer.css">
+  <script src="https://kit.fontawesome.com/6d753d32aa.js" crossorigin="anonymous"></script>
+  <style>
+    i{
+      color: rgb(255, 0, 43);
+      box-shadow: 0 0 3px pink;
+    }
+
+    #musicrange{
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="musicplayerbox" 
+          style=" height: 570px;
+                  width: 25vw;
+                  background-color: rgb(255, 108, 23);
+                  box-shadow: 3px 3px 3px rgb(255, 0, 0);">
+
+      <nav id="musicNavbar">
+        <a href="mainpage.html"><i class="fa-solid fa-chevron-left" id="leftangle"></i></a>
+       <a href="songsList.html"> <i class="fa-solid fa-bars" id="threebar"></i> </a>
+      </nav>
+      <div class="imgsection">
+        <img src="nuvasthanante.jpg" alt="">
+        
+      </div>
+      <div id="songinfo">
+        <h1 style="color: whitesmoke;">Nuvasthanante</h1>
+        <p>Ghal Ghal Ghal</p>
+      </div>
+      <audio  id="songs">
+        <source src="03 - Ghal Ghal Ghal Ghal  - SenSongsMp3.co.mp3" type="audio/mpeg">
+      </audio>
+      <input type="range" id="musicrange">
+      <div class="controls">
+
+        <a href="musicplayer.html"><i class="fa-solid fa-angles-left"></i></a>
+        <i onclick="playmusic()" class="fa-solid fa-play" id="playbutton"></i>
+        <i class="fa-solid fa-angles-right"></i>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="musicplayer.js"></script>
+</body>
+</html>

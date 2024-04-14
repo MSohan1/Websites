@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 80, 100);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+.musicplayerbox{
+  height: 570px;
+  width: 25vw;
+  background-color: rgba(0, 0, 0, 0.692);
+  box-shadow: 10px 10px 10px black;
+  border-radius: 15px;
+}
+i{
+  padding: 15px;
+  color: rgb(252, 91, 118);
+  background-color: white;
+  box-shadow: 1px 1px 3px pink;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px black;
+}
+.musicplayerbox nav{
+  margin: 15px 15px 0 15px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+/* #leftangle{
+
+} */
+
+
+.musicplayerbox .imgsection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-top: 20px; */
+}
+.musicplayerbox .imgsection img{
+  border-radius: 150px;
+  border: 6px solid white;
+  box-shadow: 3px 3px 5px rgb(255, 49, 83);
+}
+#songinfo {
+  /* display: flex;
+  justify-content: center;
+   */
+
+  width: 100%;
+  height: 70px;
+  /* background-color: aqua; */
+}
+
+#songinfo h1{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: fantasy;
+  margin: 6px;
+  color: rgb(255, 0, 43);
+  
+}
+#songinfo p{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+}
+
+.controls{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls #playbutton{
+  scale: 1.5;
+}
+
+#musicrange{
+  -webkit-appearance: none;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 6px;
+  background-color: rgb(255, 0, 149);
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+#musicrange::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 49, 210);
+  border-radius: 50%;
+  border: 8px solid white;
+  cursor: pointer;
+}

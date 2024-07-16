@@ -1,0 +1,12 @@
+.btn-success{
+  width: 80px;
+
+}
+.btn-danger{
+  margin-top: 25px;
+}
+.container .h1{
+  font-size: 55px;
+  font-weight: 700;
+  color: rgb(0, 0, 139);
+}
